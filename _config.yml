@@ -27,12 +27,12 @@ gems:
 # Site owner
 owner:
   name:Lamjs
-  email:
-  twitter:
+  email:1486924411@qq.com
+  twitter:nothing
   google:
     ad-client:
     ad-slot:
-  bio:林佳墅，一个被迫学做网页的人
+  bio:林佳墅,一个被迫学做网页的人
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
