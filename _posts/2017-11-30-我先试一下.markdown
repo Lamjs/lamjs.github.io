@@ -1,8 +1,11 @@
 ---
 ---
+layout: default
+title:  "可裝GitHub Desktop"
+date:   2017-1-02 22:07:50 +0800
 image:
-  teaser: github-desktop-icon.svg
-  feature: github-desktop-icon.svg
+  teaser: li.png
+  feature: li.png
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper est in imperdiet molestie. Curabitur aliquet sem in ante venenatis.
 
 Morbi ultrices libero imperdiet [lectus](#) dignissim, sit amet bibendum nisl consectetur. Morbi erat purus, pretium at ligula tincidunt, faucibus commodo sem. Etiam vel porttitor est, vitae maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien turpis, cursus non porta ac.
