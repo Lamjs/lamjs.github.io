@@ -26,9 +26,9 @@ gems:
 
 # Site owner
 owner:
-  name:lamjs
+  name: lamjs
   email:
-  twitter:nothing
+  twitter:
   google:
     ad-client:
     ad-slot:
