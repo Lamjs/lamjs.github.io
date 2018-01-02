@@ -49,4 +49,4 @@ locales:
    updated: "更新日期："
    share: "分享"
   zh_TW:
-   <<: *DEFAULT_DE     # use German translation for de_DE
+   <<: *DEFAULT_ZH     # use German translation for de_DE
