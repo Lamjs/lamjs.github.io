@@ -8,11 +8,15 @@ categories: SDG portfolio visualization
 
 尽管过去十年在所有发展领域均取得了显著进展，但按照前几年的发展速度，不足以在2030年完全实现可持续发展目标具体目标。因此，时间非常紧迫。另外，如下文所示，进展并不总是均衡的。不同区域、不同性别、不同年龄、不同财富状况和不同居住地包括城乡之间，进步是不平衡的。要想实现2030年议程所勾画的宏伟愿景，需要速度更快、更包容的进展。
 
-## 目标1：在全世界消除一切形式的贫困
-<div class="row">
+<div class="row img-rounded" style="padding:30px; box-shadow: 10px 10px 5px #888888; border: 1px solid #EA1D2D;">
+<div class="col-md-12">
+<div style="background: #EA1D2D; color:white" class="btn" markdown="1">
+#### 目标1：在全世界消除一切形式的贫困
+</div>
+</div>
 <div class="col-md-3"><!-- left -->
 生活在极端贫困中的人口数量显著下降   
-<img src="https://unstats.un.org/sdgs/report/2017/svg/goal-01.svg" alt="" style="width: 100%" type="image/svg+xml">
+<img src="https://unstats.un.org/sdgs/report/2017/svg/goal-01.svg" alt="SDG 2017 Report Goal 1" style="width: 100%" type="image/svg+xml">
 社保系统对脆弱人群的覆盖率仍然不高
 </div>
 <div class="col-md-9" markdown="1" ><!-- right -->
