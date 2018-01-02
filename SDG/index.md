@@ -15,7 +15,7 @@ categories: SDG portfolio visualization
 <img src="https://unstats.un.org/sdgs/report/2017/svg/goal-01.svg" alt="" style="width: 100%" type="image/svg+xml">
 社保系统对脆弱人群的覆盖率仍然不高
 </div>
-<div class="col-md-9"><!-- right -->
+<div class="col-md-9" markdown="1" ><!-- right -->
 让世界各地的人们得到所需的支持以摆脱一切形式的贫困，是可持续发展的本质。
 
 目标1侧重于通过促进社会保障制度、体面就业和加强穷人的抗风险能力建设等相关战略来消除贫困。
