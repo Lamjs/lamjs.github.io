@@ -32,28 +32,28 @@ threading.Thread(target=a.run).start() #: 在另一个线程执行a.run() ...
 
 对dict也是类似:
 
-adict = {"a":1, "b":2}
+- adict = {"a":1, "b":2}
 {k: v*2 for k, v in adict.items() }
 
 ## yield关键字:当你需要返回很多东西然后一个一个用的时候, 你可以一次返回一个
 
-def xrange(n):
+- def xrange(n):
       i = 0
       while i < n:
           yield i
           i += 1
 用法:
 
-  for i in xrange(10):
+  - for i in xrange(10):
       print i
      
      
 ## 装饰器@:把something_heavy()返回的结果缓存起来(以函数名+args为缓存的键值,只缓存最近使用的10条)
 
-@functool.lru_cache(10)
-def something_heavy(args):
+- @functool.lru_cache(10)
+   def something_heavy(args):       
        #各种耗时操作.....
-       pass
+  pass
        
 ## 运算符重载:
 试试numpy, 你会惊呆的, 操作向量/矩阵跟基本类型一样方便
