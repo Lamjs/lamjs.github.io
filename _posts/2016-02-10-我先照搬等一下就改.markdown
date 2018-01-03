@@ -1,7 +1,7 @@
 ---
 layout: article
-title:  "欲用GitHub空間，可先自裝GitHub Desktop"
-date:   2017-12-01 22:07:50 +0800
+title:  "python 相较于 Java 有什么优势？"
+date:   2018-01-02 22:07:50 +0800
 categories: Jekyll GitHub update
 image:
   teaser: gembox.png
@@ -20,38 +20,47 @@ python 相较于 Java 有什么优势？
     def run(self):
         print "run A"
 
-threading.Thread(target=A).start() #: 在另一个线程执行A()
+threading.Thread(target=A).start()  #: 在另一个线程执行A()
 a = A()
 threading.Thread(target=a.run).start() #: 在另一个线程执行a.run() ... 
-# 惊呆没有,这是怎么做到的?? 也许你该看看描述符的概念
+#惊呆没有,这是怎么做到的?? 也许你该看看描述符的概念
 
 ## list表达式
 把"1023"变成 [1, 2, 3]
 - [ int(x) for x in "1023" if x != "0" ]
 (当前你可以用Lisp风格的: map(int, filter(lambda x: x != "0", "1024")))
 
-对dict也是类似:adict = {"a":1, "b":2}
+对dict也是类似:
+
+adict = {"a":1, "b":2}
 {k: v*2 for k, v in adict.items() }
 
-## yield关键字:当你需要返回很多东西然后一个一个用的时候, 你可以一次返回一个def xrange(n):
+## yield关键字:当你需要返回很多东西然后一个一个用的时候, 你可以一次返回一个
+
+def xrange(n):
       i = 0
       while i < n:
           yield i
           i += 1
 用法:
-for i in xrange(10):
-     print i
-     
-## 装饰器@:把something_heavy()返回的结果缓存起来(以函数名+args为缓存的键值,只缓存最近使用的10条)@functool.lru_cache(10)
+
+  for i in xrange(10):
+      print i
+     
+     
+## 装饰器@:把something_heavy()返回的结果缓存起来(以函数名+args为缓存的键值,只缓存最近使用的10条)
+
+@functool.lru_cache(10)
 def something_heavy(args):
        #各种耗时操作.....
        pass
-       
-运算符重载:试试numpy, 你会惊呆的, 操作向量/矩阵跟基本类型一样方便
+       
+## 运算符重载:
+试试numpy, 你会惊呆的, 操作向量/矩阵跟基本类型一样方便
+
 ## 缺点: 慢 
 目测python是最慢的脚本语言,比V8上的JS还慢不少. (研究一下描述符,你会发现python调用对象方法的开销好大!)
 但是python创始人说了, 一般程序的瓶颈在于20%的代码, 所以你可以把那20%的代码用C重写(而python是胶水语言,用C重写部分代码当然很easy啦)
 同时,你可以试试PyPy, 引入了JIT技术动态类型有人说: 动态类型写时爽, 重构起来是灾难，对于不写unittest, 不做代码覆盖率测试的人来说, 动态语言当然是危险的, 拼写错误都可能被隐藏, 重构?别捣乱!
 python创始人有话说: "如果你认为编译器可以帮你解决所有问题,那你一定干编程没多久", "不管什么程序,都需要写testcase, 既然要写testcase, 那么动态类型不是问题!"
 在此推荐大家两个工具: py.test python-coverage
-
