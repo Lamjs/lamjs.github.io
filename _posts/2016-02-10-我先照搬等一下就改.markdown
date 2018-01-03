@@ -7,24 +7,363 @@ image:
   teaser: gembox.png
   feature: gembox.png
 ---
-欲用 `GitHub` 空間，可先自裝 [GitHub Desktop][GitHub_Desktop] 這開發環境工具。
- 
-## 怎样裝 GitHub Desktop？
- 
-現在2017年年底的情境下，在中國的網絡環境裝 `GitHub Desktop`，有時會考驗著所在地區的網路速度和安裝人的人品。
- 
-- 註冊一個免費去[Github 官网][Github官网] 注册( `Sign Up` )一个账号，账号名請選你打算行走世界的名號，先佔先有
-去 [GitHub Desktop][GitHub_Desktop] 頁面下載客戶端 
- 
-若從官網下載不了，可搜索較新的離線安裝版本，或找朋友們試試。
- 
-## 怎样使用 GitHub？
- 
-在知乎上有[一个文科妹子分享了其半年摸索才明白的經驗][文科妹子用GitHub]，可以參考。
- 
- 
-[GitHub_Desktop]: https://desktop.github.com/
-[Github官网]: https://github.com/
-[文科妹子用GitHub]: https://www.zhihu.com/question/20070065 
-View  
-BIN  apple-touch-icon-precomposed.png
+<!-- saved from url=(0159)https://app.myzaker.com/news/article.php?app_id=fromWebClient_1013&_appid=AndroidPhone&_version=8.1&_bsize1080_1920&sharechannel=wx&pk=5a4bb0471bc8e0610c000031 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="dns-prefetch" href="https://zkres.myzaker.com/">
+<link rel="dns-prefetch" href="https://zkres1.myzaker.com/">
+<link rel="dns-prefetch" href="https://zkres2.myzaker.com/">
+
+
+
+<link rel="apple-touch-icon" href="https://zkres.myzaker.com/data/wap_image/logo.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://zkres.myzaker.com/data/wap_image/logo_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://zkres.myzaker.com/data/wap_image/logo_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://zkres.myzaker.com/data/wap_image/logo_152x152.png">
+
+<meta content="yes" name="apple-mobile-web-app-capable">
+
+<title> 用 Python 给头像加上圣诞帽</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="keywords" content="知乎,微信,p图软件">
+
+    <script type="text/javascript" defer="" async="" src="./用 Python 给头像加上圣诞帽_files/uaest.js.下载"></script><script src="./用 Python 给头像加上圣诞帽_files/web3.js.下载" type="text/javascript"></script>
+<link rel="stylesheet" id="css" type="text/css" href="./用 Python 给头像加上圣诞帽_files/main_v2.css.下载">
+<style>
+    body{
+        font-family: "FZLanTingHei-R-GBK", STHeiti STXihei, Microsoft Yahei, Arial;
+    }
+</style>
+<script type="text/javascript">
+    var browser = {
+        versions: (function () {
+            var u = navigator.userAgent.toLowerCase(),
+            isPad = false,isAndroidPad = false,isIpad = false,isMobile = false,isPc = false;
+        
+            if(u.indexOf(''))
+                
+            if(u.indexOf('android') > -1){
+                if(u.indexOf('mobile') == -1){ 
+                    isAndroidPad = true;
+                }
+            } 
+
+            if(u.indexOf('ipad') > -1){
+                isIpad = true;
+            }
+
+            if(isAndroidPad||isIpad){
+                isPad = true;
+            }else if((u.indexOf('mobile') > -1 && !isPad ) || (u.indexOf('android') > -1 && !isAndroidPad) || (u.indexOf('phone') > -1)){
+                isMobile = true;
+            }else{
+                isPc = true;
+            }
+
+            return {
+                android: u.indexOf('android') > -1 || u.indexOf('Linux') > -1,
+                iPhone: u.indexOf('iphone') > -1,
+                isPad: isPad,
+                isMobile:isMobile,
+                isPc:isPc,
+                wx:u.toLowerCase().indexOf('micromessenger') > -1,
+            };
+        })()
+}
+
+
+    var checkInZaker = function(){
+        if (navigator.appinfo) {
+            return true;
+        }
+
+        return false;
+    }
+
+if(browser.versions.isPc || browser.versions.isPad){
+    var style = '<style type="text/css">';
+    style+= 'html{background-color:#f8f8f8;}';
+    style+= '#body{width:720px;margin:0 auto;background-color:#fff;border-left:1px solid #e8e8e8;border-right:1px solid #e8e8e8;font-style:normal}';
+    style+= '#temple_title,#content_text,.icon-font-origin,#top5{padding:0 50px;}';
+    style+= '#downTips{width:720px;}';
+    style+= '#qrcode{position:fixed;background-color:#fff;margin:44px 0 0 740px;}';
+    style+= '#downTips{display:none;}';
+    style+= '</style>';
+    document.write(style);
+}
+
+var _$ = function(id){return document.querySelector(id);},
+    isWap = true;
+
+
+
+
+</script><style type="text/css">html{background-color:#f8f8f8;}#body{width:720px;margin:0 auto;background-color:#fff;border-left:1px solid #e8e8e8;border-right:1px solid #e8e8e8;font-style:normal}#temple_title,#content_text,.icon-font-origin,#top5{padding:0 50px;}#downTips{width:720px;}#qrcode{position:fixed;background-color:#fff;margin:44px 0 0 740px;}#downTips{display:none;}</style>
+<style>@font-face{font-family:uc-nexus-iconfont;src:url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff) format('woff'),url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf) format('truetype')}</style><style>.zk_top_barwrap{z-index:1000;width:100%;height:auto;background-color:transparent;margin:0 auto;position:fixed;bottom:0;left:0;}.zk_top_bar{-webkit-animation:animatopbar 0.6s ease forwards;animation:animatopbar 0.6s ease forwards}@-webkit-keyframes animatopbar{0%{-webkit-transform:translate(0, 42px);transform:translate(0, 42px)}100%{-webkit-transform:translate(0, 0);transform:translate(0, 0)}}@keyframes animatopbar{0%{-webkit-transform:translate(0, 42px);transform:translate(0, 42px)}100%{-webkit-transform:translate(0, 0);transform:translate(0, 0)}}.zk_top_bar{max-width:720px;margin: 0 auto;height: 42px;border-top: 1px solid #e8e8e8;background-color:#fff;z-index:10}.zk_top_bar_logo{float:left;margin:8px 0;left: 14px;position: absolute;}.zk_top_bar_link{ margin: 7px 0; right: 14px;position: absolute;}</style></head>
+<body id="body" style="padding-bottom: 44px;"><div class="zk_top_barwrap"><div class="zk_top_bar"><a href="https://app.myzaker.com/"><img class="zk_top_bar_logo" src="./用 Python 给头像加上圣诞帽_files/wap_logo.png.下载" style="height:27px;width:90px;" alt=""></a> <a class="zk_top_bar_link"><img src="./用 Python 给头像加上圣诞帽_files/open_zk.png.下载" style="height: 27px;width: 70px;"></a></div></div>
+    <script type="text/javascript">
+        if(browser.versions.isPc){
+            document.write('<img id="qrcode" src="dist/images/qrcode.png"/>');
+        }
+        
+        
+    </script><img id="qrcode" src="./用 Python 给头像加上圣诞帽_files/qrcode.png.下载">
+
+<div style="display: none"><img style="width: 1px;height: 1px" src="./用 Python 给头像加上圣诞帽_files/share_pic.png.下载"></div>
+<style>
+    .zaker_quote {
+        color:#AAAAAA;
+        padding:1em;
+        text-align:center;
+        margin:3em auto;
+    }
+    .zaker_quote p {
+        margin-top:2em;
+        text-align:left;
+    }
+    .zaker_quote .night_pic {
+        margin:auto;
+        opacity:0.5;
+    }
+    .zaker_link {
+        margin-top:30px;
+        margin-bottom:30px;
+        text-align:center;
+        -webkit-tap-highlight-color:transparent;
+        -webkit-touch-callout:none;
+        -webkit-user-select:none;
+    }
+    .zaker_link a {
+        text-decoration:none;
+        border-bottom:0px;
+    }
+    .zaker_btn_blue {
+        color:#74b8ff;
+        border:1px solid #71b7ff;
+        border-radius:30px;
+        padding:10px 30px;
+        display:inline-block;
+    }
+    a.zaker_link_inline:link {
+        text-decoration:none;
+        border-bottom:0px;
+        border:0px;
+        margin:0px;
+    }
+    .zaker_link_inline zkspan {
+        color:#00abff !important;
+        border-bottom:1px solid #00abff !important;
+    }
+    .zaker_abstract {
+        border-left:2px solid #262626;
+        padding-left:1em;
+        margin:3em auto;
+    }
+    .zaker_pic_info {
+        color:#c0c0c0;
+        font-size:0.8em;
+        font-style:italic;
+        line-height:1.5em;
+        margin:1em auto;
+    }
+    .zaker_hr hr {
+        border:0;
+        background-color:#E8E8E8;
+        height:1px;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .night .zaker_quote {
+        color:#8b8b8b;
+        padding:1em;
+        text-align:center;
+        margin:3em auto;
+    }
+    .night .night_pic {
+        opacity:1;
+        margin:auto;
+    }
+    .night .zaker_abstract {
+        border-left:2px solid #8b8b8b;
+        padding-left:1em;
+        color:#8b8b8b;
+    }
+    .night .zaker_pic_info {
+        color:#444444;
+        font-size:0.8em;
+        font-style:italic;
+        line-height:1.1em;
+    }
+    .night .zaker_hr hr {
+        border:0px;
+        background-color:#292929;
+        height:1px;
+        line-height:1px;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .zaker_quote_v2 {
+        border-left:0.216em solid #292929;
+        padding-left:1em;
+        margin:1.8em auto;
+        font-size:1.0em;
+        line-height:1.5em;
+    }
+    .zaker_pic_info_v2 {
+        margin:0.1em auto;
+        font-size:0.8em;
+        font-style:bold;
+        text-align:left;
+        line-height:1.5em;
+    }
+    .zaker_element_triangleup {
+        border-left:5px solid transparent;
+        border-right:5px solid transparent;
+        border-bottom:10px solid;
+        display:inline-block;
+        height:0;
+        width:0;
+        line-height:0.8em;
+        margin-right:0.34em;
+    }
+    .zaker_paragraph {
+        font-size:1em;
+        color:#d2d2d2;
+        padding:0.4em 0.64em;
+        background-color:#353535;
+        display:inline-block;
+    }
+    .zaker_link_v2 {
+
+        text-align:center;
+        -webkit-tap-highlight-color:transparent;
+        -webkit-touch-callout:none;
+        -webkit-user-select:none;
+        margin: 22px 0;
+    }
+    .zaker_link_v2 a {
+        text-decoration:none;
+        border-bottom:0px;
+    }
+    .zaker_btn_blue_v2 {
+        background-color:#00abff;
+        border:1px solid #00abff;
+        border-radius:5px;
+        color:#fff;
+        display:block;
+        padding:0.7em 2em;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+    a.zaker_btn_blue_v2:link {
+        text-decoration:none;
+        border-bottom:0px;
+        border:0px;
+        margin:0px;
+    }
+    .zaker_abstract_v2 {
+        margin:1.8em auto;
+    }
+    .zaker_abstract_v2 .zaker_element_abstract {
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .zaker_abstract_v2 .zaker_element_abstract.zaker_element_abstract_top_right {
+        float:right;
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+    }
+    .zaker_abstract_v2 .zaker_element_abstract.zaker_element_abstract_bottom_right {
+        float:right;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    .zaker_abstract_v2 .zaker_abstract_content {
+        margin-top:0px;
+        margin-bottom:0px;
+        border-left:2px solid #cfcfcf;
+        border-right:2px solid #cfcfcf;
+        padding:0 1em;
+        background:#151515;
+    }
+
+
+    .bottom_open_zaker{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .bottom_open_zaker_a,bottom_open_zaker_a:link,bottom_open_zaker_a:active,bottom_open_zaker_a:hover{
+        background-color: #f84444;
+        padding: 10px 20px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .default_hidden{
+          display: none;
+    }
+   #content a:link,
+   #content a:hover,
+   #content a:active{
+       text-decoration: none;
+       border-bottom: 1px solid #455767;
+       color:#455767;
+   } 
+</style>
+<script>
+    var os_match = function(){
+        var ua = navigator.userAgent;
+        if(ua.match(/android/ig)){
+            return 'android';
+        }else if(ua.match(/iphone/ig)){
+            if(ua.match(/os (9|[1-9]\d)/ig)){
+                return 'iphone_ios9';
+            }else{
+                return 'iphone';
+            }
+        }
+    };
+
+     var is_chrome = function() {
+         var flag = !!window.chrome;
+         if (flag) {
+             return true;
+         }
+         return false;
+     };
+
+    var openlink = function(type){
+        if(type=='main'){
+            var default_link = "http://www.myzaker.com/download_app.php?s=wap&bfrom=article_main&f=Normal";
+            var ios9_link = "http://applink.myzaker.com/zaker/ioslink/?type=article&bfrom=article_main&pk=5a4bb0471bc8e0610c000031&f=Normal";
+            var android_link = "//applink.myzaker.com/zaker/androidlink/?t=a&type=article&bfrom=article_main&pk=5a4bb0471bc8e0610c000031&f=Normal";
+        }else{
+            var default_link = "http://www.myzaker.com/download_app.php?s=wap&bfrom=article_pl&f=Normal";
+            var ios9_link = "http://applink.myzaker.com/zaker/ioslink/?type=article&bfrom=article_pl&pk=5a4bb0471bc8e0610c000031&f=Normal";
+            var android_link = "//applink.myzaker.com/zaker/androidlink/?t=a&type=article&bfrom=article_pl&pk=5a4bb0471bc8e0610c000031&f=Normal";
+        }
+        var link = default_link;
+         var android_chrome_link = "intent://t=a&pk=5a4bb0471bc8e0610c000031&type=article#Intent;scheme=zakeriphone;package=com.myzaker.ZAKER_Phone;S.browser_fallback_url=http%3A%2F%2Fapplink.myzaker.com%2Fzaker%2Fandroidlink%2F%3Ff%3DNormal%26bfrom%3Darticle_main;end";
+
+        if(os_match() == 'iphone_ios9'){
+            link = ios9_link;
+        }else if(os_match() == 'android'){
+            if (is_chrome()) {
+                link = android_chrome_link;
+            } else {
+                link = android_link;
+            }
+        }
+        
+        window.location.href = link;
+    }
+
+</script>
