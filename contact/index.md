@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "_Thank_you_!"
 date: 2017-12-30T11:40:45-04:00
 modified:
 excerpt: "_Thank_you_!"
