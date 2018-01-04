@@ -88,28 +88,17 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 $$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
 10.流程图：略显复杂，请仔细观看示例
-```flow
-st=>start: Start
-e=>end: End
-op1=>operation: My Operation
-sub1=>subroutine: My Subroutine
-cond=>condition: Yes or No?
-io=>inputoutput: catch something...
-st->op1->cond
-cond(yes)->io->e
-cond(no)->sub1(right)->op1
+```
+Andrew->China: Says Hello
+Note right of China: China thinks\nabout it
+China-->Andrew: How are you?
+Andrew->>China: I am good thanks!
 ```
 效果如：
-st=>start: Start
-e=>end: End
-op1=>operation: My Operation
-sub1=>subroutine: My Subroutine
-cond=>condition: Yes or No?
-io=>inputoutput: catch something...
-st->op1->cond
-cond(yes)->io->e
-cond(no)->sub1(right)->op1
-<div class="tiles">
+Andrew->China: Says Hello
+Note right of China: China thinks\nabout it
+China-->Andrew: How are you?
+Andrew->>China: I am good thanks!
     
 11.时序图：
 
