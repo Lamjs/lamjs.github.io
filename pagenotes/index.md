@@ -1,10 +1,13 @@
 ---
 layout: archive
-title: "网页笔记"
+title: "markdown"
 date: 2017-12-30T11:40:45-04:00
 modified:
-excerpt: " "
+excerpt: "markdown语法"
 tags: []
+image: 
+  feature: 
+  teaser:
 ---
 1.标题：文字前插入1~6个#号
 ```
@@ -96,11 +99,12 @@ Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ``` 
 效果如：
-![](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/liucheng2.jpg)
+![ ](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/liucheng2.jpg)
 
 以上图片可能有些要很久才能显示出来，勿喷。
     
+<div class="tiles">
 {% for post in site.categories.pagenotes %}
-  {% include post-grid.html %}
+{% include post-grid.html %}
 {% endfor %}
-<!-- /.tiles 把所有categories 有 pagenotes 的列出來-->
+</div><!-- /.tiles 把所有categories 有 pagenotes 的列出来-->
