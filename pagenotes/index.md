@@ -9,12 +9,12 @@ tags: []
 1.标题：文字前插入1~6个#号
 ```
 # 这是md语言笔记1
-## 这是md语言笔记21
+## 这是md语言笔记2
 ###### 这是md语言笔记6
 ```
 效果如：
 # 这是md语言笔记1
-## 这是md语言笔记21
+## 这是md语言笔记2
 ###### 这是md语言笔记6
 
 2.有序列表：正常输入序号，自动纠错
@@ -92,11 +92,8 @@ China-->Andrew: How are you?
 Andrew->>China: I am good thanks!
 ```
 效果如：
-Andrew->China: Says Hello
-Note right of China: China thinks\nabout it
-China-->Andrew: How are you?
-Andrew->>China: I am good thanks!
-    
+![](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/liucheng.png)
+    
 11.时序图：
 
 ```sequence
