@@ -82,9 +82,7 @@ tags: []
 $$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 ```
 效果如：
-$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
-或者块级公式，
-$$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+![](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/gongshi.jpg)
 
 10.流程图：略显复杂，请仔细观看示例
 ```
