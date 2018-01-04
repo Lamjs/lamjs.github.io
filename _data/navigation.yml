@@ -1,17 +1,22 @@
 # Site navigation links
 
 - title: 个人网页成品
-  url: /teaching/
+  url: /portfolio/
   excerpt: "东凑西凑"
   image: teaching.gif
 
 - title: 网页笔记
-  url: /pagenotes/
+  url: /posts/rwd/
   excerpt: "各种小知识单"
   image: xiu.jpg
  
+ - title: 信息可视化笔记
+  url: /posts/infovis/
+  excerpt: "各种小知识单"
+  image: xiu.jpg
+  
 - title: 信息可视化成品
-  url: /SDG/
+  url: /infovis/
   excerpt: "重要网吧分布及"
   image: 300x200.gif
  
