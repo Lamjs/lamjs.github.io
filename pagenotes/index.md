@@ -67,7 +67,7 @@ tags: []
 | 是我 | 还是我| 不是我 |
 ```
 效果如：
-！[](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/gongshi.jpg)
+![](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/gongshi.jpg)
 
 8.目录：顶部加[TOC]，配合#号使用
 
