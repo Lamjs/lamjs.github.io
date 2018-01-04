@@ -2,7 +2,7 @@
 layout: article
 title:  "css"
 date:   2017-11-30 22:07:50 +0800
-categories: rwd
+categories: infovis
 image:
   teaser: xiu.jpg
   feature: xiu.jpg
