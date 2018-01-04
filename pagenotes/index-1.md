@@ -1,10 +1,13 @@
 ---
 layout: archive
-title: "网页笔记"
-date: 2017-12-30T11:40:45-04:00
+title: "css"
+date: 2018-01-03T11:40:45-04:00
 modified:
-excerpt: "等一下"
+excerpt: "css"
 tags: []
+image: 
+  feature: 
+  teaser:
 ---
 CSS书写顺序：
 1.位置属性(position, top, right, z-index, display, float等)
@@ -120,8 +123,8 @@ a:hover{color:#F90;text-decoration:underline;}
 
 
 
-
+<div class="tiles">
 {% for post in site.categories.pagenotes %}
-  {% include post-grid.html %}
+{% include post-grid.html %}
 {% endfor %}
-<!-- /.tiles 把所有categories 有 pagenotes 的列出來-->
+</div><!-- /.tiles 把所有categories 有 pagenotes 的列出来-->
