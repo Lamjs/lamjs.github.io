@@ -60,22 +60,15 @@ tags: []
 效果如：
 >你好，再见
 
-7.表格
-```
-| 十年|二十年 | 三十年 |
-|------------|-----------|--------|
-| 是我 | 还是我| 不是我 |
-```
-效果如：
-![](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/gongshi.jpg)
 
-8.目录：顶部加[TOC]，配合#号使用
-
+7.目录：顶部加[TOC]，配合#号使用
+```
 [TOC]
 ###Markdown 是什么
 ####Markdown 的好处
+```
 
-9.数学公式编辑：涉及Mathjax语法
+8.数学公式编辑：涉及Mathjax语法
 ```
 可以创建行内公式，例如：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 或者块级公式，
@@ -84,7 +77,7 @@ $$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 效果如：
 ![](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/gongshi.jpg)
 
-10.流程图：略显复杂，请仔细观看示例
+9.流程图：略显复杂，请仔细观看示例
 ```
 Andrew->China: Says Hello
 Note right of China: China thinks\nabout it
@@ -93,8 +86,9 @@ Andrew->>China: I am good thanks!
 ```
 效果如：
 ![](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/liucheng.png)
+
     
-11.时序图：
+10.时序图：
 
 ```sequence
 Alice->Bob: Hello Bob, how are you?
@@ -102,13 +96,11 @@ Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ``` 
 效果如：
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
+![](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/liucheng2.jpg)
 
-以上就是我力所能及的事情，勿喷。
+以上图片可能有些要很久才能显示出来，勿喷。
     
 {% for post in site.categories.pagenotes %}
   {% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles 把所有categories 有 pagenotes 的列出來-->
+<!-- /.tiles 把所有categories 有 pagenotes 的列出來-->
