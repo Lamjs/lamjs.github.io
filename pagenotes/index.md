@@ -10,7 +10,7 @@ tags: []
 目前还没有
 
 <div class="tiles">
-{% for post in site.categories.jj %}
+{% for post in site.categories.pagenotes %}
   {% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles 把所有categories 有 jj 的列出來-->
+</div><!-- /.tiles 把所有categories 有 pagenotes 的列出來-->
