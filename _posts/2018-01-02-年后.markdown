@@ -77,7 +77,7 @@ image:
 $$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 ```
 效果如：
-![](https://github.com/Lamjs/Lamjs.github.io/images/gongshi.jpg)
+![](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/gongshi.jpg)
 
 9.流程图：略显复杂，请仔细观看示例
 ```
@@ -88,7 +88,6 @@ Andrew->>China: I am good thanks!
 ```
 效果如：
 ![](https://github.com/Lamjs/Lamjs.github.io/blob/master/images/liucheng.png)
-
 
 10.时序图：
 
