@@ -2,7 +2,6 @@
 layout: article
 title:  "github的十二个骚操作"
 date:   2018-01-03 22:07:50 +0800
-categories: tech Jekyll
 image:
   teaser: li.png
   feature: li.png
