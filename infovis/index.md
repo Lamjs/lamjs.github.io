@@ -7,14 +7,13 @@ image:
   teaser: article9.jpg
 ---
 
-## Q组：商品房销售额为主题的研究
+## lamjs的期末专案：快餐店的地理分布和结构比重及Q组期中项目
 ####  ==数据来源==：[国家数据](http://data.stats.gov.cn/)
 
 
 ---
-https://public.tableau.com/views/122_4/1_1?:embed=y&:display_count=yes&publish=yes
 <div style="background: #DAA520; color:white;border-radius:20px">
-    <h2>1、gg</h2>  
+    <h2>快餐店的地理分布和结构比重</h2>  
 </div>
 <iframe src="https://public.tableau.com/views/122_4/1_1?:embed=y&:display_count=yes&publish=yes/sheet4?:embed=y&:display_count=yes&publish=yes/Dashboard1?:showVizHome=no&:embed=truehttps://public.tableau.com/shared/DJPSG6CX9?:display_count=yes" width="850px" height="900px" frameborder="0"></iframe>
 
