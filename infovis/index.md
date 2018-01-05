@@ -1,11 +1,11 @@
 ---
 layout: article
+title:  "期末专案及期中Q组专题"
 date:   2018-01-04 
 categories: infovis
 image:
   teaser: 
 ---
-## 林佳墅的期末专案：快餐店的地理分布和结构比重及Q组期中项目
 ####  ==数据来源==：[国家数据](http://data.stats.gov.cn/)
 ---
 <div style="background: #DAA520; color:white;border-radius:20px">
