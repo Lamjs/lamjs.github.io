@@ -4,10 +4,10 @@ title:  "信息可视化期中专案"
 date:   2017-12-01 
 categories: infovis
 image:
-  teaser: article9.jpg
+  teaser: 
 ---
 
-## lamjs的期末专案：快餐店的地理分布和结构比重及Q组期中项目
+## 林佳墅的期末专案：快餐店的地理分布和结构比重及Q组期中项目
 ####  ==数据来源==：[国家数据](http://data.stats.gov.cn/)
 
 
