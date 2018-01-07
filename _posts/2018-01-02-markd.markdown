@@ -7,7 +7,14 @@ image:
   teaser: xiu.jpg
   feature: xiu.jpg
 ---
-大多的
+
+<div class="tiles">
+{% for post in site.categories.rwd %}
+{% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles 把所有categories 有 rwd 的列出来-->
+
+
 1.标题：文字前插入1~6个#号
 ```
 # 这是md语言笔记1
@@ -101,8 +108,3 @@ Bob-->Alice: I am good thanks!
 
 以上图片可能有些要很久才能显示出来，勿喷。
 
-<div class="tiles">
-{% for post in site.categories.rwd %}
-{% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles 把所有categories 有 rwd 的列出来-->
