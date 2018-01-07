@@ -2,6 +2,7 @@
 
 title: "被逼着学习真的会变强"
 description: "Only two things are infinite: the universe and human stupidity.I'm not sure about the former."
+affiliation: "中山大学南方学院 <a href = 'http://wcy.nfu.edu.cn/zh/教学教务/培养方案/网络与新媒体/'>网络与新媒体</a> 培养方案核心课程学期作品，由 <a href='http://wcy.nfu.edu.cn/zh/学院概况/师资队伍/廖汉腾/'>廖汉腾副教授</a> 指导" 
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
@@ -32,7 +33,7 @@ owner:
   google:
     ad-client:
     ad-slot:
-  bio: "林佳墅，被迫学做网页的人"
+  bio: "廖汉腾，副教授（网络与新媒体专业） 中山大学南方学院 新媒体研究中心代理主任 ，开设课程：《网络新媒体技术与协作》、《信息可视化设计》、《大数据统计》、《Python语言》、《网页设计与制作》、《网站运营与管理实践》等。"
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
