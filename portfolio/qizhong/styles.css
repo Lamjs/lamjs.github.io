@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-    background-image:(https://github.com/Lamjs/Lamjs.github.io/blob/master/images/fleet.jpg)
 }
 
 body {
@@ -10,6 +9,7 @@ body {
 	max-width: 60rem;
 	margin: 0 auto;
 	color: #333;
+    background-image:(https://github.com/Lamjs/Lamjs.github.io/blob/master/images/fleet.jpg)
 }
 
 img {
